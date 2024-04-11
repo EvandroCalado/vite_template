@@ -17,14 +17,5 @@ const config: StorybookConfig = {
     autodocs: 'tag',
   },
   staticDirs: ['../public'],
-  async viteFinal(config) {
-    return {
-      ...config,
-      define: {
-        ...config.define,
-        global: 'window',
-      },
-    };
-  },
 };
 export default config;
