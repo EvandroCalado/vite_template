@@ -9,13 +9,14 @@ Este é um template para iniciar rapidamente projetos React usando Vite. Ele já
 
 ## Como usar este template
 
-Para usar esse template você pode fazer um fork ou até mesmo criar o seu próprio template
-usando esse como um guia/auxílio.
+Para usar esse template você pode clonar ou até mesmo criar o seu próprio template
+usando esse como um guia/base.
 
 ``` bash
+git clone https://github.com/EvandroCalado/vite_template
 cd vite_template
-npm install # ou yarn
-npm run dev # ou yarn dev
+npm install ou yarn
+npm run dev ou yarn dev
 ```
 
 
