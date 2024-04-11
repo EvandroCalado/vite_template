@@ -30,7 +30,11 @@
     }
   },
   "include": [
-    "src"
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "./.eslintrc.*",
+    "./vite.config.ts",
+    "./.jest/setup.ts",
   ],
   "references": [
     {
