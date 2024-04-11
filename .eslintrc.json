@@ -41,7 +41,8 @@
           "module",
           [
             "/^components/",
-            "/^types/"
+            "/^types/",
+            "/^utils/"
             // tu pode colocar todos os seus folders aqui
           ],
           "/styles.*/",
