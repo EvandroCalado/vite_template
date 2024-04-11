@@ -9,6 +9,7 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint src --fix",
     "test": "jest --maxWorkers=50%  --coverage=false --passWithNoTests --watch",
+    "test:coverage": "jest --maxWorkers=50% --passWithNoTests --coverage",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
